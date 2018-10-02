@@ -1222,7 +1222,7 @@ $checkValue(i) {
             break;
         case 2:
             var keys = i.keys();
-            if (keys.length != 0)
+            if (keys.isNotEmpty)
                 return true;
             break;
         case -1: return i;
